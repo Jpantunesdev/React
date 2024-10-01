@@ -1,0 +1,65 @@
+body{
+    padding-bottom: 500px;
+}
+/* Flex (alinha um ao lado do outro) */
+.flex{
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+}
+
+/* Atua com direção escolhida usando flex */
+.flex-column{
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+}
+
+/* Atua com direção escolhida usando flex (como tetris)*/
+.wrap{
+    display: flex;
+    border: 1px solid #333;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+/* Centraliza os elementos dentro de um elemento pai na tela */
+
+.center,
+.space-around,
+.space-between,
+.end
+{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.space-around .box,
+.space-between .box,
+.end .box,
+.center .box{
+    width: 50px;
+}
+
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}

@@ -1,0 +1,75 @@
+/* Lista Ordenada */
+
+ul {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+/* itens da lista */
+li{
+    color:blue;
+}
+
+/*Nome das cores*/
+.color{
+    color: red;
+}
+
+/* Hex */
+.hex{
+    color: #55a398;
+}
+
+/* Pode reduzir os números das cores caso haja repetição*/
+.simple-hex{
+    color: #123;
+    background-color: #112233;
+}
+
+/* RGB (vermelho, verde, azul) */
+.rgb{
+    color: rgb(red, green, blue);
+    background-color: rgb(255,0,0);
+    background-color: rgb(0,255,0);
+    background-color: rgb(0,0,255);
+}
+
+/* RGBA Cores e mudança de opacidade (0 até 1) */
+.rgba{
+    color: rgba(100, 199, 45, 0.3);
+}
+
+/* HSL ou HUE, saturation e lightness*/
+.hsl{
+    color: hsl(100, 20%, 50%);
+}
+
+/* Background*/
+.bg{
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+}
+
+.bg-2{
+    background-color: rgb(199, 10, 100);
+    color: #00eaff;
+}
+
+/* Imagens no background*/
+.bg-image{
+    background-image: url(mo.jpg);
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.center-img {
+    height: 400px;
+    width: 400px;
+}
+
+.center-img
+{
+    background-position: center;
+}
+

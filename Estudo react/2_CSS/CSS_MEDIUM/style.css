@@ -1,0 +1,177 @@
+.card-hw{
+
+    height: 300px;
+    width: 200px;
+    background-color: red;
+
+}
+
+.card-hw-2{
+
+    height: 300px;
+    background-color: red;
+
+}
+
+/* Padding */
+.witout-pad{
+    background-color: black;
+    color: white;
+}
+
+.padding{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.shorthand{
+    background-color: #444;
+    color: white;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-2{
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+}
+
+.border-box{
+    background-color: #444;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border-right{
+    border-right: 3px solid #444;
+    padding: 50px;
+}
+
+.border-left{
+    border-left: 3px solid #444;
+    padding: 50px;
+ }
+ 
+ /* Margin */
+
+.mg{
+    margin: 10px;
+    background-color: #444;
+    color: white;
+}
+
+/* alinhamento de texto */
+.card{
+    text-align: center;
+    letter-spacing: 5px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+/* Display */
+
+.inline-box{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.block{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: block;
+}
+
+/* Fica estático (regra top,...) n funciona */
+.static{
+    position: static;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+/* Posição que fica a cima dos outros elementos */
+.relative{
+    position: relative;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 10px;
+}
+
+
+/* Posição Absoluta pode ser usada em qualquer lugar da tela */
+
+.absolute{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Absoluto fica apenas dentro do containter relativo */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    position: absolute;
+}
+
+.absolute-2{
+    bottom: 1px;
+    left: 250px;
+}
+
+/* fixado na tela(quando escolher suas posições) */
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid rgb(4, 131, 4);
+    margin-top: 120px;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    margin-top: 120px;
+    position: relative;
+}
+
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+}

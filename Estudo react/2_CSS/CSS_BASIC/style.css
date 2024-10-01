@@ -1,0 +1,32 @@
+h2 {
+    color:chocolate;
+    font-size: small;
+}
+
+p {
+    background-color: blue ;
+}
+
+/* .(Nome da Classe) */
+.paragraph {
+    background-color: red;
+}
+
+/* #(Nome do ID) */
+#id{
+    background-color: gold;
+}
+
+h3{
+    background-color:purple;
+}
+
+.test {
+    background-color: black;
+    color: white;
+}
+
+#test_1 {
+    background-color: chocolate;
+    color: black;
+}

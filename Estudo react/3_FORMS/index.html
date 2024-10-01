@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Venda de carros</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h3 class="header-title">Cadastre o seu veículo para vender mais rápido!</h3></div>
+        <div class="card-form">
+            <form action="">
+    
+                    <div class="form-body">
+                        
+                        
+                        <div class="form-header">
+                            <h1> Formulário </h1>
+                            <h2></h2>
+                        </div>
+                                <label for="title">Título do anúncio <span class="required">*</span></label>
+                                <input 
+                                type="text" 
+                                placeholder="Um título para anunciar seu carro" 
+                                class="form-input" 
+                                name="title" 
+                                id="block" 
+                                minlength="1" 
+                                maxlength="30" 
+                                required>
+
+                                <label for="Price">Preço <span class="required">*</span></label>
+                                <input 
+                                type="number" 
+                                placeholder="Defina o preço para o seu carro" 
+                                class="form-input" 
+                                name="price" 
+                                id="block" 
+                                minlength="1" 
+                                maxlength="7" 
+                                required>
+
+                                <label for="Details">Detalhes <span class="required">*</span></label>
+                                <textarea 
+                                type="text" 
+                                placeholder="Detalhes do Carro"
+                                class="form-input" 
+                                name="details" 
+                                id="block" 
+                                minlength="1" 
+                                maxlength="150" 
+                                required>
+
+                                </textarea>
+
+                                <label for="Model">Modelo <span class="required">*</span></label>
+                                <input 
+                                type="text" 
+                                placeholder="Defina o Modelo do seu carro" 
+                                class="form-input" 
+                                name="Model" 
+                                id="block" 
+                                minlength="1" 
+                                maxlength="40" 
+                                required>
+
+                                <label for="km">Kilometragem <span class="required">*</span></label>
+                                <input 
+                                type="text" 
+                                placeholder="Defina a Kilometragem do seu carro" 
+                                class="form-input" 
+                                name="Model" 
+                                id="block" 
+                                minlength="1" 
+                                maxlength="40" 
+                                required>
+
+                                <label for="Date">Data da compra <span class="required">*</span></label>
+                                <input 
+                                type="date" 
+                                placeholder="Defina a Kilometragem do seu carro" 
+                                class="form-input" 
+                                name="data" 
+                                id="block" 
+                                required>
+
+                                
+                                <label for="gear" class="form-select">Tipo de Câmbio:<span class="required">*</span></label>
+                                
+                            <div class="form-radio">
+                                
+                                <input 
+                                type="radio" 
+                                class="radio" 
+                                name="gear" 
+                                id="maunal"
+                                value="M"
+                                >
+                                <label for="Gear">Manual</label>
+
+                                <input 
+                                type="radio" 
+                                class="radio" 
+                                name="gear" 
+                                id="maunal"
+                                value="A"
+                                >
+                                <label for="Gear">Automático</label>
+                            </div>
+
+                            
+                            <label for="optional" class="form-select">Opcional<span class="required"> *</span></label>
+                            
+                            <div class="form-check">
+                                
+                                
+                                <input 
+                                type="checkbox" 
+                                class="check" 
+                                name="optional" 
+                                id="maunal"
+                                value="Ar-Condicionado"
+                                >
+
+                                
+                                
+                                <label for="Gear" class="check">Ar Condicionado</label>
+
+                                <br>
+                            
+                                <input 
+                                type="checkbox" 
+                                class="check" 
+                                name="gear" 
+                                id="maunal"
+                                value="A"
+                                >
+                                <label for="Gear" class="check">Chave Automática</label>
+
+                                <br>
+                                
+                                <input 
+                                type="checkbox" 
+                                class="check" 
+                                name="optional" 
+                                id="maunal"
+                                value="Chave-auto"
+                                >
+                                <label for="Gear">Manual</label>
+
+                                <br>
+
+                                <input 
+                                type="checkbox" 
+                                class="check" 
+                                name="gear" 
+                                id="maunal"
+                                value="A"
+                                >
+                                <label for="Gear">Automático</label>
+
+                            </div>
+                            <div class="form-file">
+                                <label for="images">Fotos do Carro <span class="required">*</span></label>
+                                <input 
+                                type="file" 
+                                class="form-file" 
+                                name="images"
+                                accept="image/jpg, image/jpg" 
+                                id="block" 
+                                required>
+                            </div>
+                            <div class="center-btn">
+                                <input type="submit" name="enviar" value="enviar" id="" class="btn-submit">
+                            </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

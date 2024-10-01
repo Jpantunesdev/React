@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+.header-div{
+    background-color: #333;
+    width: auto;
+    padding: 25px;
+    position: sticky;
+    top: 0px;
+
+}
+.navbar-item{
+    text-align: end;
+}
+#icon-header{
+margin-bottom: 10px;
+position: absolute;
+width: 400px;
+height: 400px;
+
+}
+.btn-clear{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    
+}
+#btn-enter{
+    border-radius: 10px;
+    background-color: rgb(46, 153, 46);
+    padding: 15px;
+}
+.banner-body{
+    background-image:url(img/cloudy-day-metropolis-city.jpg) ;
+    background-size:cover ;
+    background-position: center;
+    padding: 10rem 0;
+    width: 100% ;
+    z-index: 0;
+}
+.title-banner{
+    color: #fff;
+    text-align: center;
+    font-weight:bold;
+    text-shadow: #333 3px 2px 3px;
+}
+.opt-body{
+    padding: 5rem 0;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.card-opt-1,
+.card-opt-2,
+.card-opt-3
+{
+    text-align: center;
+    flex: 1 1 200px;
+
+}
+
+.Title-card-body h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Title-card-body p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.card-body
+{
+    padding-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.card-body h2{
+    font-size: 36px;
+    margin-top: 0;
+}
+.card-body p{
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.price{
+    background-color: rgb(46, 153, 46);
+    color: #fff;
+
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5%;
+    
+}
+.btn-body-rec{
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+
+    background-color:  rgb(46, 153, 46);
+}
+
+.card-dom{
+    background-color: #333;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.card-dom h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.card-dom p{
+    color: #e7e1e1;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.card-dom input {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card-dom input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.card-dom input[type="submit"] {
+    background-color:  rgb(46, 153, 46);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+
+}
+
+/* footer{
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #dbdbdb;
+    
+}
+
+#footer-page{
+    
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+ */
+
+ @media (max-width:900px) {
+    .container-body p{
+        padding: 0 6rem;
+    }
+ }
